@@ -1,0 +1,68 @@
+
+# Hey there o/! 
+# 
+# We just wanted to let you know that we care a great deal about    
+# making our git history clean, maintainable and easy to access for 
+# all our contributors. Commit messages are very important to us,  
+# which is why we have a strict commit message policy in place.     
+# Please use the following guidelines to format all your commit     
+# messages:
+# 
+#     <type>(<scope>): <subject>
+#     <BLANK LINE>
+#     <body>
+#     <BLANK LINE>
+#     <footer>
+# 
+# Please note that:
+#  - The HEADER is a single line of max. 50 characters that         
+#    contains a succinct description of the change. It contains a   
+#    type, an optional scope, and a subject
+#       + <type> describes the kind of change that this commit is   
+#                   providing. Allowed types are:
+#             * feat (new feature; one that is usually visible 
+#                   for end users))
+#             * fix (bug fix/patch; one that is usually visible 
+#                   for end users)
+#             * improve (improve a current implementation without 
+#                   adding a new feature or fixing a bug)
+#             * docs (a change in the README or documentation)
+#             * refactor (a change in production code focused on 
+#                   readability, style and/or performance)
+#             * test (when adding missing tests, refactoring tests;
+#                   no production code change)
+#             * chore (maintenance, tool changes, configuration 
+#                   changes; a change that doesn't impact end users)
+#       + <scope> can be anything specifying the place of the commit    
+#                   change. Example values: init, runner, config, 
+#                   web-server, proxy, etc. The <scope> can be empty 
+#                   (eg. if the change is a global or difficult to 
+#                   assign to a single component), in which case the 
+#                   parentheses are omitted.
+#       + <subject> is a very short description of the change, in   
+#                   the following format:
+#             * imperative, present tense: “change” not             
+#               “changed” or “changes”
+#             * no capitalised first letter
+#             * no dot (.) at the end
+#
+#  - The BODY should include the motivation for the change and      
+#    contrast this with previous behavior and must be phrased in   
+#    imperative present tense. Use 72-character columns for 
+#    word-wrapping.
+#
+#  - The FOOTER should contain any information about Breaking       
+#    Changes and is also the place to reference GitHub issues that   
+#    this commit closes. Use 72-character columns for word-wrapping.
+#    EXAMPLE:
+#       BREAKING CHANGE:
+#
+#       `port-runner` command line option has changed to 
+#       `runner-port`, so that it is consistent with the
+#       configuration file syntax.
+#
+#       To migrate your project, change all the commands, where you
+#       use `--port-runner` to `--runner-port`.
+# 
+# Thank you <3
+#
